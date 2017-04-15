@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Pre-fortis clipping</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+  <div class="container">
+    <h2>Links</h2>
+    <p>Choose the document to quickly find the resource you need.</p>
+  </div>
+
+<div class="theory">
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#students" aria-controls="students" role="tab" data-toggle="tab">Students</a></li>
+    <li role="presentation" class="disabled"><a href="#teachers" aria-controls="profile" role="tab" data-toggle="tab">Teachers</a></li>
+    <li role="presentation" class="disabled"><a href="#juniors" aria-controls="juniors" role="tab" data-toggle="tab">Junior School Pupils</a></li>
+    <li role="presentation" class="disabled"><a href="#kids" aria-controls="kids" role="tab" data-toggle="tab">Primary School Pupils</a></li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content" style="margin-top: 20px;">
+    <div role="tabpanel" class="tab-pane active" id="students">
+        <!-- Large button group -->
+        <div class="btn-group">
+          <button class="btn btn-default btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Phonetics <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a href="PDF/Phonetics/WhatPhon.pdf">What is phonetics</a></li>
+            <li><a href="PDF/Phonetics/WhatVowel.pdf">What is a Vowel</a></li>
+            <li><a href="PDF/Phonetics/phonDesc.pdf">Phonetic description of English Consonants</a></li>
+            <li><a href="PDF/Phonetics/Chartcons.pdf">Chart of Consonants</a></li>
+            <li><a href="PDF/Phonetics/WhatCons.pdf">What is a Consonant</a></li>
+            <li><a href="PDF/Phonetics/PhonListCZech.pdf">Phonetics List of Czech terms with English translation</a></li>
+          </ul>
+        </div>
+        <div class="btn-group">
+          <button class="btn btn-default btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Segmental Phonology <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a href="PDF/Segmental Phonology/1.2.1. What is  Phonology.pdf">What is  Phonology</a></li>
+            <li><a href="PDF/Segmental Phonology/1.2.2. Table of Triphthongs.pdf">Table of Triphthongs</a></li>
+            <li><a href="PDF/Segmental Phonology/1.2.1. The 44 phonemes of English.pdf">The 44 phonemes of English</a></li>
+            <li><a href="PDF/Segmental Phonology/1.2.1. Received Pronunciation.pdf">Received Pronunciation</a></li>
+            <li><a href="PDF/Segmental Phonology/1.2.1. What are Phonemic Symbols TEXT.pdf">What are Phonemic Symbols</a></li>
+            <li><a href="PDF/Segmental Phonology/1.2.2. Table of Diphthongs (following consonants).pdf">Table of Diphthongs (following consonants)</a></li>
+            <li><a href="PDF/Segmental Phonology/1.2.2. Table of Long Vowels (following consonants).pdf">Table of Long Vowels (following consonants)</a></li>
+            <li><a href="PDF/Segmental Phonology/1.2.2. Table of Short Vowels (following consonants).pdf">Table of Short Vowels (following consonants)</a></li>
+          </ul>
+        </div>
+        <div class="btn-group">
+          <button class="btn btn-default btn-lg dropdown-toggle disabled" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Suprasegmental Phonology <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a href="#">Word stress</a></li>
+            <li><a href="#">Sentence stress</a></li>
+            <li><a href="#">Weak and strong forms</a></li>
+            <li><a href="#">Elision</a></li>
+            <li><a href="#">Liason</a></li>
+            <li><a href="#">Reduced forms</a></li>
+            <li><a href="#">Assimilation of voice</a></li>
+            <li><a href="#">Advanced Aspects</a></li>
+            <li><a href="#">Intonation</a></li>
+          </ul>
+        </div>
+        <div class="btn-group">
+          <button class="btn btn-default btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Phonemic Transcription <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a href="PDF/Phonemic Transcription/1.4 How Do I Write Phonemic Symbols on the Computer.pdf">How Do I Write Phonemic Symbols on the Computer</a></li>
+            <li><a href="PDF/Phonemic Transcription/1.4. Phonemic Transcription.pdf">Phonemic Transcription</a></li>
+            <li><a href="PDF/Phonemic Transcription/1.4. What is the IPA.pdf">What is the IPA</a></li>
+            <li><a href="PDF/Phonemic Transcription/1.4.1. Vowels with Words.pdf">Vowels with Words</a></li>
+            <li><a href="PDF/Phonemic Transcription/1.4.2. Consonants with Words.pdf">Consonants with Words</a></li>
+            <li><a href="PDF/Phonemic Transcription/1.4.3. Pronunciation of suffix -s.pdf">Pronunciation of suffix -s</a></li>
+          </ul>
+        </div>
+        <div class="btn-group">
+          <button class="btn btn-default btn-lg dropdown-toggle disabled" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Orthography <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a href="#">Common patterns of spelling and pronunciation</a></li>
+            <li><a href="#">Homophones</a></li>
+            <li><a href="#">Silent letters</a></li>
+          </ul>
+        </div>
+      </div>
+
+    <div role="tabpanel" class="tab-pane fade" id="teachers">
+        <div class="btn-group">
+          <button class="btn btn-default btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Useful links <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a href="#">Articles</a></li>
+            <li><a href="#">Materials</a></li>
+          </ul>
+        </div>
+    </div>
+    <div role="tabpanel" class="tab-pane fade" id="juniors"><img src="media/images/UC.png" alt="Under construction"/></div>
+    <div role="tabpanel" class="tab-pane fade" id="kids"><img src="media/images/UC.png" alt="Under construction"/></div>
+  </div>
+</div>
+
+</body>
+</html>

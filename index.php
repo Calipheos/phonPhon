@@ -28,6 +28,23 @@ $website = new Page;
   <!-- Latest compiled JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+  <script>
+  window.addEventListener("load", function(){
+  window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#000"
+      },
+      "button": {
+        "background": "#f1d600"
+      }
+    },
+    "theme": "classic",
+    "position": "bottom-right"
+  })});
+  </script>
 </head>
 <body>
 
@@ -49,7 +66,8 @@ $website = new Page;
         <ul class="nav navbar-nav">
           <li><a href="router.php?activePage=1">About</a></li>
           <li><a href="router.php?activePage=2">Pre-fortis Clipping</a></li>
-          <li class="dropdown">
+          <li><a href="router.php?activePage=3">Navigation</a></li>
+          <!-- <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><a href="#" class="disabled">Action</a></li>
@@ -60,10 +78,10 @@ $website = new Page;
               <li role="separator" class="divider"></li>
               <li><a href="#">One more separated link</a></li>
             </ul>
-          </li>
+          </li> -->
         </ul>
 
-        <ul class="nav navbar-nav navbar-right">
+        <!-- <ul class="nav navbar-nav navbar-right">
           <li><a href="#">Link</a></li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
@@ -75,7 +93,7 @@ $website = new Page;
               <li><a href="#">Separated link</a></li>
             </ul>
           </li>
-        </ul>
+        </ul> -->
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
   </nav>
@@ -101,6 +119,12 @@ $website = new Page;
                 case 2:
                     include 'prefortis.php';
                     break;
+                case 3:
+                    include 'fullSiteNav.php';
+                    break;
+                // case 4:
+                //     include 'prefortis.php';
+                //     break;
             }
     }else {
       include 'landingPage.php';

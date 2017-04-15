@@ -32,7 +32,7 @@
 
           <div class="col-md-3 col-sm-6 hero-feature">
               <div class="thumbnail">
-                  <img src="media\pictures\placeArt.png" alt="">
+                  <img src="media\images\placeArt.png" alt="">
                   <div class="caption">
                       <h3>Pre-fortis Table</h3>
                       <p>Check out our interactive table dealing with pre-fortis clipping.</p>
@@ -45,7 +45,7 @@
 
           <div class="col-md-3 col-sm-6 hero-feature">
               <div class="thumbnail">
-                  <img src="media\pictures\about-us.jpg" alt="">
+                  <img src="media\images\about-us.jpg" alt="">
                   <div class="caption">
                       <h3>About Us</h3>
                       <p>We've added a page to add more about our website and ourselves.</p>
@@ -58,7 +58,7 @@
 
           <div class="col-md-3 col-sm-6 hero-feature">
               <div class="thumbnail">
-                  <img src="media\pictures\Done-For-You-Websites-11.jpg" alt="">
+                  <img src="media\images\Done-For-You-Websites-11.jpg" alt="">
                   <div class="caption">
                       <h3>The site was created.</h3>
                       <p>This website was created on 15.4.2017. Yay. This one's on us.</p>
