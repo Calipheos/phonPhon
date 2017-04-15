@@ -37,7 +37,7 @@
                       <h3>Pre-fortis Table</h3>
                       <p>Check out our interactive table dealing with pre-fortis clipping.</p>
                       <p>
-                          <a href="router.php?activePage=1" class="btn btn-primary">See Now</a>
+                          <a href="router.php?activePage=2" class="btn btn-primary">See Now</a>
                       </p>
                   </div>
               </div>
@@ -50,7 +50,7 @@
                       <h3>About Us</h3>
                       <p>We've added a page to add more about our website and ourselves.</p>
                       <p>
-                          <a href="router.php?activePage=2" class="btn btn-primary">See Now</a>
+                          <a href="router.php?activePage=1" class="btn btn-primary">See Now</a>
                       </p>
                   </div>
               </div>
