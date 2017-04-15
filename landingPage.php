@@ -12,6 +12,11 @@
   <div class="container">
 
       <!-- Jumbotron Header -->
+      <style>
+header {
+    font-family: 'Marcellus SC';font-size: 22px;
+}
+</style>
       <header class="jumbotron hero-spacer text-center">
           <h1>Phonetics & Phonology</h1>
           <p>Welcome to our almost brand new pages dedicated to English Phonetics and Phnology.</p>
@@ -58,6 +63,19 @@
 
           <div class="col-md-3 col-sm-6 hero-feature">
               <div class="thumbnail">
+                  <img src="media\images\Navigation.jpg" alt="">
+                  <div class="caption">
+                      <h3>Navigation</h3>
+                      <p>We've prepared navigation page for larger part of our upcoming educational content. (probably in matter of years)</p>
+                      <p>
+                          <a href="router.php?activePage=3" class="btn btn-primary">See Now</a>
+                      </p>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 hero-feature">
+              <div class="thumbnail">
                   <img src="media\images\Done-For-You-Websites-11.jpg" alt="">
                   <div class="caption">
                       <h3>The site was created.</h3>
@@ -68,19 +86,6 @@
                   </div>
               </div>
           </div>
-
-          <!-- <div class="col-md-3 col-sm-6 hero-feature">
-              <div class="thumbnail">
-                  <img src="http://placehold.it/800x500" alt="">
-                  <div class="caption">
-                      <h3>Feature Label</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                      <p>
-                          <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
-                      </p>
-                  </div>
-              </div>
-          </div> -->
 
       </div>
       <!-- /.row -->
