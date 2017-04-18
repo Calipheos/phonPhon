@@ -27,13 +27,15 @@
 <h1 class="text-center">Pre-fortis clipping</h1>
 <div class="container">
   <div class="panel panel-default">
-    <div class="panel-heading"><h4>Definition:</h4></div>
+    <div class="panel-heading"><h4>Definition: Pre-fortis clipping /ˌpriːˌfɔːtɪs ˈklɪpɪŋ/</h4></div>
     <div class="panel-body">
       <p>
-        <b>Pre-fortis clipping</b> is a phenomenon of the articulation of vowels before consonants. It can be shown that vowels are produced shorter ('clipped') if followed by fortis/voiceless consonants within the same syllable. Conversely, we could speak of <b>pre-lenis lengthening</b>, whereby a vowel is produced longer before lenis/voiced consonants. Compare, e.g. the length of the vowels in <i>bit</i> vs <i>bid</i>, and <i>bead</i> vs <i>beat</i>.
+        Fortis consonants have the effect of shortening a preceding vowel or sonorant consonant,
+        so that, for example, ‘bit’ has a shorter vowel than ‘bid’. This effect is sometimes called
+        pre-fortis clipping.
       </p>
       </div>
-    <div class="panel-footer"><p class="text-muted">Definition from: http://www.sz.uni-erlangen.de/abteilungen/medien/lorenz/phonetics_ws0708/definitions_phon</p></div>
+    <div class="panel-footer"><p class="text-muted">Definition from: http://www.peterroach.net/glossary.html</p></div>
   </div>
   <div class="panel panel-default">
     <div class="panel-body text-center">
@@ -41,6 +43,13 @@
         Click the word to play its pronunciation.<br>
         Few words do not have appropriate recording attached to it, yet.<br>
         If you can't hear sound after trying several words, adjust your audio settings in your device.
+      </p>
+      </div>
+  </div>
+  <div class="panel panel-danger">
+    <div class="panel-body text-center">
+      <p>
+        <b>Note:</b> Please be aware, that we do not recommend using the interactive function (playing a sound after a click on the word) on devices with limited data usage.
       </p>
       </div>
   </div>
@@ -53,19 +62,19 @@
      <tr>
       <th></th>
       <th></th>
-      <th>d</th>
-      <th>t</th>
-      <th>g</th>
-      <th>k</th>
-      <th>v</th>
-      <th>f</th>
-      <th>z</th>
-      <th>s</th>
+      <th>/d/</th>
+      <th>/t/</th>
+      <th>/g/</th>
+      <th>/k/</th>
+      <th>/v/</th>
+      <th>/f/</th>
+      <th>/z/</th>
+      <th>/s/</th>
      </tr>
    </thead>
 
      <tr>
-      <th rowspan="12">i&#720;</th>
+      <th rowspan="12">/i&#720;/</th>
       <td><div onclick="playSound('bee');">bee<audio id="bee"></audio></div></td>
       <td><div onclick="playSound('bead');">bead<audio id="bead"></audio></div></td>
       <td><div onclick="playSound('beat');">beat<audio id="beat"></audio></div></td>
@@ -199,7 +208,7 @@
      </tr>
 
      <tr>
-      <th rowspan="4">&#593;&#720;</th>
+      <th rowspan="4">/&#593;&#720;/</th>
       <td><div onclick="playSound('bar');">bar<audio id="bar"></audio></div></td>
       <td><div onclick="playSound('bard');">bard<audio id="bard"></audio></div></td>
       <td><div onclick="playSound('Bart');">Bart<audio id="Bart"></audio></div></td>
@@ -245,7 +254,7 @@
      </tr>
 
      <tr>
-      <th rowspan="2">&#604;&#720;</th>
+      <th rowspan="2">/&#604;&#720;/</th>
       <td><div onclick="playSound('her');">her<audio id="her"></audio></div></td>
       <td><div onclick="playSound('heard');">heard<audio id="heard"></audio></div></td>
       <td><div onclick="playSound('hurt');">hurt<audio id="hurt"></audio></div></td>
@@ -270,7 +279,7 @@
      </tr>
 
      <tr>
-      <th rowspan="5">u&#720;</th>
+      <th rowspan="5">/u&#720;/</th>
       <td><div onclick="playSound('shoe');">shoe<audio id="shoe"></audio></div></td>
       <td><div onclick="playSound('shoed');">shoed<audio id="shoed"></audio></div></td>
       <td><div onclick="playSound('shoot');">shoot<audio id="shoot"></audio></div></td>
@@ -327,7 +336,7 @@
      </tr>
 
      <tr>
-      <th rowspan="5">&#596;&#720;</th>
+      <th rowspan="5">/&#596;&#720;/</th>
       <td><div onclick="playSound('core');">core<audio id="core"></audio></div></td>
       <td><div onclick="playSound('cord');">cord<audio id="cord"></audio></div></td>
       <td><div onclick="playSound('court');">court<audio id="court"></audio></div></td>
@@ -384,7 +393,7 @@
      </tr>
 
      <tr>
-      <th rowspan="6">e&#618;</th>
+      <th rowspan="6">/e&#618;/</th>
       <td><div onclick="playSound('gray');">gray<audio id="gray"></audio></div></td>
       <td><div onclick="playSound('grade');">grade<audio id="grade"></audio></div></td>
       <td><div onclick="playSound('great');">great<audio id="great"></audio></div></td>
@@ -452,7 +461,7 @@
      </tr>
 
      <tr>
-      <th rowspan="13">a&#618;</th>
+      <th rowspan="13">/a&#618;/</th>
       <td><div onclick="playSound('die');">die<audio id="die"></audio></div></td>
       <td></td>
       <td></td>
@@ -597,7 +606,7 @@
      </tr>
 
      <tr>
-      <th rowspan="2">&#596;&#618;</th>
+      <th rowspan="2">/&#596;&#618;/</th>
       <td><div onclick="playSound('boy');">boy<audio id="boy"></audio></div></td>
       <td></td>
       <td></td>
@@ -621,7 +630,7 @@
      </tr>
 
      <tr>
-      <th rowspan="8">&#601;&#650;</th>
+      <th rowspan="8">/&#601;&#650;/</th>
       <td><div onclick="playSound('bow');">bow<audio id="bow"></audio></div></td>
       <td><div onclick="playSound('bode');">bode<audio id="bode"></audio></div></td>
       <td><div onclick="playSound('boat');">boat<audio id="boat"></audio></div></td>
@@ -711,7 +720,7 @@
      </tr>
 
      <tr>
-      <th>a&#650;</th>
+      <th>/a&#650;/</th>
       <td><div onclick="playSound('bough');">bough<audio id="bough"></audio></div></td>
       <td><div onclick="playSound('bowed');">bowed<audio id="bowed"></audio></div></td>
       <td><div onclick="playSound('bout');">bout<audio id="bout"></audio></div></td>
@@ -724,7 +733,7 @@
      </tr>
 
      <tr>
-      <th>e&#601;</th>
+      <th>/e&#601;/</th>
       <td><div onclick="playSound('scare');">scare<audio id="scare"></audio></div></td>
       <td></td>
       <td></td>
@@ -737,7 +746,7 @@
      </tr>
 
      <tr>
-      <th>&#618;&#601;</th>
+      <th>/&#618;&#601;/</th>
       <td><div onclick="playSound('fear');">fear<audio id="fear"></audio></div></td>
       <td></td>
       <td></td>
@@ -748,17 +757,8 @@
       <td><div onclick="playSound('fears');">fears<audio id="fears"></audio></div></td>
       <td><div onclick="playSound('fierce');">fierce<audio id="fierce"></audio></div></td>
      </tr>
-     <!-- <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-     </tr>
+     <!--
+
      <tr>
       <td>A</td>
       <td></td>

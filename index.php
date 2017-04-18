@@ -100,9 +100,6 @@ $website = new Page;
 
 
 
-  <!-- Fixed navbar -->
-
-
   <div class="container">
     <?php
 
