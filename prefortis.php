@@ -88,7 +88,7 @@ $(function () {
       <th rowspan="12">/i&#720;/</th>
       <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('bee');">bee<audio id="bee"></audio></div></td>
       <td><div data-toggle="tooltip" data-placement="top" title="/bi:d/" onclick="playSound('bead');">bead, Bede<audio id="bead"></audio></div></td>
-      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('beat');">beat<br>beet<audio id="beat"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('beat');">beat, beet<audio id="beat"></audio></div></td>
       <td></td>
       <td></td>
       <td></td>
@@ -99,7 +99,7 @@ $(function () {
      <tr>
       <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('fee');">fee<audio id="fee"></audio></div></td>
       <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('feed');">feed<audio id="feed"></audio></div></td>
-      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('feet');">feet<br>feat<audio id="feet"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('feet');">feet, feat<audio id="feet"></audio></div></td>
       <td></td>
       <td></td>
       <td></td>
@@ -109,7 +109,7 @@ $(function () {
      </tr>
      <tr>
       <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('he');">he<audio id="he"></audio></div></td>
-      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('heed');">heed<br>he'd<audio id="heed"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('heed');">heed, he'd<audio id="heed"></audio></div></td>
       <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('heat');">heat<audio id="heat"></audio></div></td>
       <td></td>
       <td></td>
@@ -120,7 +120,7 @@ $(function () {
      </tr>
      <tr>
       <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('knee');">knee<audio id="knee"></audio></div></td>
-      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('need');">need<br>knead<audio id="need"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('need');">need, knead<audio id="need"></audio></div></td>
       <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('neat');">neat<audio id="neat"></audio></div></td>
       <td></td>
       <td></td>
@@ -143,7 +143,7 @@ $(function () {
      <tr>
       <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('me');">me<audio id="me"></audio></div></td>
       <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('mead');">mead<audio id="mead"></audio></div></td>
-      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('meat');">meat<br>meet<br>mete<audio id="meat"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('meat');">meat, meet, mete<audio id="meat"></audio></div></td>
       <td></td>
       <td></td>
       <td></td>
@@ -159,8 +159,8 @@ $(function () {
       <td></td>
       <td></td>
       <td></td>
-      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('peas');">peas<br>pees<audio id="peas"></audio></div></td>
-      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('peace');">peace<br>piece<audio id="peace"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('peas');">peas, pees<audio id="peas"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('peace');">peace, piece<audio id="peace"></audio></div></td>
      </tr>
      <tr>
       <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('plea');">plea<audio id="plea"></audio></div></td>
@@ -175,13 +175,13 @@ $(function () {
      </tr>
      <tr>
       <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('see');">see<audio id="see"></audio></div></td>
-      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('seed');">seed<br>cede<audio id="seed"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('seed');">seed, cede<audio id="seed"></audio></div></td>
       <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('seat');">seat<audio id="seat"></audio></div></td>
       <td></td>
       <td></td>
       <td></td>
       <td></td>
-      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('seize');">seize<br>sees<br>seas<audio id="seize"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('seize');">seize, sees, seas<audio id="seize"></audio></div></td>
       <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('cease');">cease<audio id="cease"></audio></div></td>
      </tr>
      <tr>
@@ -208,7 +208,7 @@ $(function () {
      </tr>
      <tr>
       <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('we');">we<audio id="we"></audio></div></td>
-      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('weed');">weed<br>we'd<audio id="weed"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('weed');">weed, we'd<audio id="weed"></audio></div></td>
       <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('wheat');">wheat<audio id="wheat"></audio></div></td>
       <td></td>
       <td></td>
@@ -221,7 +221,7 @@ $(function () {
      <tr>
       <th rowspan="4">/&#593;&#720;/</th>
       <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('bar');">bar<audio id="bar"></audio></div></td>
-      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('bard');">bard<br>barred<audio id="bard"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('bard');">bard, barred<audio id="bard"></audio></div></td>
       <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('Bart');">Bart<audio id="Bart"></audio></div></td>
       <td></td>
       <td></td>
@@ -253,21 +253,21 @@ $(function () {
       <td></td>
      </tr>
      <tr>
-      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('spa');">spa<br>spar<audio id="spa"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('spa');">spa, spar<audio id="spa"></audio></div></td>
       <td></td>
       <td></td>
       <td></td>
       <td></td>
       <td></td>
       <td></td>
-      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('spas');">spas<br>spars<audio id="spas"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('spas');">spas, spars<audio id="spas"></audio></div></td>
       <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('sparce');">sparce<audio id="sparce"></audio></div></td>
      </tr>
 
      <tr>
       <th rowspan="2">/&#604;&#720;/</th>
       <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('her');">her<audio id="her"></audio></div></td>
-      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('heard');">heard<br>herd<audio id="heard"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('heard');">heard, herd<audio id="heard"></audio></div></td>
       <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('hurt');">hurt<audio id="hurt"></audio></div></td>
       <td></td>
       <td></td>
@@ -278,7 +278,7 @@ $(function () {
      </tr>
 
      <tr>
-      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('were');">were<br>whirr<audio id="were"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('were');">were, whirr<audio id="were"></audio></div></td>
       <td></td>
       <td></td>
       <td></td>
@@ -293,7 +293,7 @@ $(function () {
       <th rowspan="5">/u&#720;/</th>
       <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('shoe');">shoe<audio id="shoe"></audio></div></td>
       <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('shoed');">shoed<audio id="shoed"></audio></div></td>
-      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('shoot');">shoot<br>chute<audio id="shoot"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('shoot');">shoot, chute<audio id="shoot"></audio></div></td>
       <td></td>
       <td></td>
       <td></td>
@@ -331,7 +331,7 @@ $(function () {
       <td></td>
       <td></td>
       <td></td>
-      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('lose');">lose<br>loos<audio id="lose"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('lose');">lose, loos<audio id="lose"></audio></div></td>
       <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('loose');">loose<audio id="loose"></audio></div></td>
      </tr>
      <tr>
@@ -348,18 +348,18 @@ $(function () {
 
      <tr>
       <th rowspan="5">/&#596;&#720;/</th>
-      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('core');">core<br>caw<audio id="core"></audio></div></td>
-      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('cord');">cord<br>chord<br>cawed<audio id="cord"></audio></div></td>
-      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('court');">court<br>caught<audio id="court"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('core');">core, caw<audio id="core"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('cord');">cord, chord, cawed<audio id="cord"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('court');">court, caught<audio id="court"></audio></div></td>
       <td></td>
       <td></td>
       <td></td>
       <td></td>
-      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('cause');">cause<br>cores<br>caws<audio id="cause"></audio></div></td>
-      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('course');">course<br>coarse<audio id="course"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('cause');">cause, cores, caws<audio id="cause"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('course');">course, coarse<audio id="course"></audio></div></td>
      </tr>
      <tr>
-      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('more');">more<br>Moor<audio id="more"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('more');">more, Moor<audio id="more"></audio></div></td>
       <td></td>
       <td></td>
       <td></td>
@@ -370,7 +370,7 @@ $(function () {
       <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('Morse');">Morse<audio id="Morse"></audio></div></td>
      </tr>
      <tr>
-      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('or');">or<br>ore<br>awe<br>oar<audio id="or"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('or');">or, ore, awe, oar<audio id="or"></audio></div></td>
       <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('awed');">awed<audio id="awed"></audio></div></td>
       <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('ought');">ought<audio id="ought"></audio></div></td>
       <td></td>
@@ -381,18 +381,18 @@ $(function () {
       <td></td>
      </tr>
      <tr>
-      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('saw');">saw<br>soar<audio id="saw"></audio></div></td>
-      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('sawed');">sawed<br>soared<audio id="sawed"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('saw');">saw, soar<audio id="saw"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('sawed');">sawed, soared<audio id="sawed"></audio></div></td>
       <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('sought');">sought<audio id="sought"></audio></div></td>
       <td></td>
       <td></td>
       <td></td>
       <td></td>
-      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('saws');">saws<br>soars<audio id="saws"></audio></div></td>
-      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('source');">source<br>sauce<audio id="source"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('saws');">saws, soars<audio id="saws"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('source');">source, sauce<audio id="source"></audio></div></td>
      </tr>
      <tr>
-      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('whore');">whore<br>hoar<audio id="whore"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('whore');">whore, hoar<audio id="whore"></audio></div></td>
       <td></td>
       <td></td>
       <td></td>
@@ -400,14 +400,14 @@ $(function () {
       <td></td>
       <td></td>
       <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('whores');">whores<audio id="whores"></audio></div></td>
-      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('horse');">horse<br>hoarse<audio id="horse"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('horse');">horse, hoarse<audio id="horse"></audio></div></td>
      </tr>
 
      <tr>
       <th rowspan="6">/e&#618;/</th>
       <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('gray');">gray<audio id="gray"></audio></div></td>
       <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('grade');">grade<audio id="grade"></audio></div></td>
-      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('great');">great<br>grate<audio id="great"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('great');">great, grate<audio id="great"></audio></div></td>
       <td></td>
       <td></td>
       <td></td>
@@ -460,9 +460,9 @@ $(function () {
       <td></td>
      </tr>
      <tr>
-      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('way');">way<br>weigh<audio id="way"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('way');">way, weigh<audio id="way"></audio></div></td>
       <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('weighed');">weighed<audio id="weighed"></audio></div></td>
-      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('wait');">wait<br>weight<audio id="wait"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('wait');">wait, weight<audio id="wait"></audio></div></td>
       <td></td>
       <td></td>
       <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('wave');">wave<audio id="wave"></audio></div></td>
@@ -473,14 +473,14 @@ $(function () {
 
      <tr>
       <th rowspan="13">/a&#618;/</th>
-      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('die');">die<br>dye<audio id="die"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('die');">die, dye<audio id="die"></audio></div></td>
       <td></td>
       <td></td>
       <td></td>
       <td></td>
       <td></td>
       <td></td>
-      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('dies');">dies<br>dyes<audio id="dies"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('dies');">dies, dyes<audio id="dies"></audio></div></td>
       <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('dice');">dice<audio id="dice"></audio></div></td>
      </tr>
      <tr>
@@ -491,7 +491,7 @@ $(function () {
       <td></td>
       <td></td>
       <td></td>
-      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('eyes');">eyes<br>Is<audio id="eyes"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('eyes');">eyes, Is<audio id="eyes"></audio></div></td>
       <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('ice');">ice<audio id="ice"></audio></div></td>
      </tr>
      <tr>
@@ -506,7 +506,7 @@ $(function () {
       <td></td>
      </tr>
      <tr>
-      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('high');">high<br>hi<audio id="high"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('high');">high, hi<audio id="high"></audio></div></td>
       <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('hide');">hide<audio id="hide"></audio></div></td>
       <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('height');">height<audio id="height"></audio></div></td>
       <td></td>
@@ -539,9 +539,9 @@ $(function () {
       <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('price');">price<audio id="price"></audio></div></td>
      </tr>
      <tr>
-      <td class="noSound"><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('rye');">rye<br>wry<audio id="rye"></audio></div></td>
+      <td class="noSound"><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('rye');">rye, wry<audio id="rye"></audio></div></td>
       <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('ride');">ride<audio id="ride"></audio></div></td>
-      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('write');">write<br>right<audio id="write"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('write');">write, right<audio id="write"></audio></div></td>
       <td></td>
       <td></td>
       <td></td>
@@ -551,8 +551,8 @@ $(function () {
      </tr>
      <tr>
       <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('sigh');">sigh<audio id="sigh"></audio></div></td>
-      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('side');">side<br>sighed<audio id="side"></audio></div></td>
-      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('site');">site<br>cite<br>sight<audio id="site"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('side');">side, sighed<audio id="side"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('site');">site, cite, sight<audio id="site"></audio></div></td>
       <td></td>
       <td></td>
       <td></td>
@@ -573,7 +573,7 @@ $(function () {
      </tr>
      <tr>
       <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('tie');">tie<audio id="tie"></audio></div></td>
-      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('tide');">tide<br>tied<audio id="tide"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('tide');">tide, tied<audio id="tide"></audio></div></td>
       <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('tight');">tight<audio id="tight"></audio></div></td>
       <td></td>
       <td></td>
@@ -653,14 +653,14 @@ $(function () {
       <td></td>
      </tr>
      <tr>
-      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('doe');">doe<br>dough<audio id="doe"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('doe');">doe, dough<audio id="doe"></audio></div></td>
       <td></td>
       <td></td>
       <td></td>
       <td></td>
       <td></td>
       <td></td>
-      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('doze');">doze<br>does<audio id="doze"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('doze');">doze, does<audio id="doze"></audio></div></td>
       <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('dose');">dose<audio id="dose"></audio></div></td>
      </tr>
      <tr>
@@ -687,8 +687,8 @@ $(function () {
      </tr>
      <tr>
       <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('mow');">mow<audio id="mow"></audio></div></td>
-      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('mode');">mode<br>mowed<audio id="mode"></audio></div></td>
-      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('moat');">moat<br>mote<audio id="moat"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('mode');">mode, mowed<audio id="mode"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('moat');">moat, mote<audio id="moat"></audio></div></td>
       <td></td>
       <td></td>
       <td></td>
@@ -709,8 +709,8 @@ $(function () {
      </tr>
      <tr>
       <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('row');">row<audio id="row"></audio></div></td>
-      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('rode');">rode<br>road<audio id="rode"></audio></div></td>
-      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('wrote');">wrote<br>rote<audio id="wrote"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('rode');">rode, road<audio id="rode"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('wrote');">wrote, rote<audio id="wrote"></audio></div></td>
       <td></td>
       <td></td>
       <td></td>
@@ -719,8 +719,8 @@ $(function () {
       <td></td>
      </tr>
      <tr>
-      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('tow');">tow<br>toe<audio id="tow"></audio></div></td>
-      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('towed');">towed<br>toad<audio id="towed"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('tow');">tow, toe<audio id="tow"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('towed');">towed, toad<audio id="towed"></audio></div></td>
       <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('tote');">tote<audio id="tote"></audio></div></td>
       <td></td>
       <td></td>
@@ -732,7 +732,7 @@ $(function () {
 
      <tr>
       <th>/a&#650;/</th>
-      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('bough');">bough<br>bow<audio id="bough"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('bough');">bough, bow<audio id="bough"></audio></div></td>
       <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('bowed');">bowed<audio id="bowed"></audio></div></td>
       <td><div data-toggle="tooltip" data-placement="top" title="" onclick="playSound('bout');">bout<audio id="bout"></audio></div></td>
       <td></td>
