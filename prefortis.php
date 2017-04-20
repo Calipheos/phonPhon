@@ -41,7 +41,7 @@
     <div class="panel-body text-center">
       <p>
         Click the word to play its pronunciation.<br>
-        Few words do not have appropriate recording attached to it, yet.<br>
+        Grayed-out cells do not have a sound associated with the word.<br>
         If you can't hear sound after trying several words, adjust your audio settings in your device.
       </p>
       </div>
@@ -54,6 +54,10 @@
       </div>
   </div>
 </div>
+
+<style>
+.noSound {background-color: #C0C0C0; }
+</style>
 
   <div class="container">
     <table class="table table-hover table-responsive table-bordered">
@@ -115,8 +119,8 @@
       <td></td>
       <td></td>
       <td></td>
-      <td><div onclick="playSound('knees');">knees<audio id="knees"></audio></div></td>
-      <td><div onclick="playSound('niece');">niece<audio id="niece"></audio></div></td>
+      <td class="noSound"><div onclick="playSound('knees');">knees<audio id="knees"></audio></div></td>
+      <td class="noSound"><div onclick="playSound('niece');">niece<audio id="niece"></audio></div></td>
      </tr>
      <tr>
       <td><div onclick="playSound('lea');">lea<audio id="lea"></audio></div></td>
@@ -236,9 +240,9 @@
       <td></td>
       <td></td>
       <td></td>
-      <td><div onclick="playSound('halve');">halve<audio id="halve"></audio></div></td>
-      <td><div onclick="playSound('half');">half<audio id="half"></audio></div></td>
-      <td><div onclick="playSound('cars');">cars<audio id="cars"></audio></div></td>
+      <td class="noSound"><div onclick="playSound('halve');">halve<audio id="halve"></audio></div></td>
+      <td class="noSound"><div onclick="playSound('half');">half<audio id="half"></audio></div></td>
+      <td></td>
       <td></td>
      </tr>
      <tr>
@@ -249,7 +253,7 @@
       <td></td>
       <td></td>
       <td></td>
-      <td><div onclick="playSound(spas'');">spas<audio id="spas"></audio></div></td>
+      <td><div onclick="playSound('spas');">spas<audio id="spas"></audio></div></td>
       <td><div onclick="playSound('sparce');">sparce<audio id="sparce"></audio></div></td>
      </tr>
 
@@ -528,15 +532,15 @@
       <td><div onclick="playSound('price');">price<audio id="price"></audio></div></td>
      </tr>
      <tr>
-      <td><div onclick="playSound('rye');">rye<audio id="rye"></audio></div></td>
+      <td class="noSound"><div onclick="playSound('rye');">rye<audio id="rye"></audio></div></td>
       <td><div onclick="playSound('ride');">ride<audio id="ride"></audio></div></td>
       <td><div onclick="playSound('write');">write<audio id="write"></audio></div></td>
       <td></td>
       <td></td>
       <td></td>
       <td></td>
-      <td><div onclick="playSound('rise');">rise<audio id="rise"></audio></div></td>
-      <td><div onclick="playSound('rice');">rice<audio id="rice"></audio></div></td>
+      <td class="noSound"><div onclick="playSound('rise');">rise<audio id="rise"></audio></div></td>
+      <td class="noSound"><div onclick="playSound('rice');">rice<audio id="rice"></audio></div></td>
      </tr>
      <tr>
       <td><div onclick="playSound('sigh');">sigh<audio id="sigh"></audio></div></td>
