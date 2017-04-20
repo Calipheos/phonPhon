@@ -20,6 +20,13 @@
     audio.play();
  }
   </script>
+
+<script>
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+
 </head>
 
 <body>
@@ -35,13 +42,13 @@
         pre-fortis clipping.
       </p>
       </div>
-    <div class="panel-footer"><p class="text-muted">Definition from: http://www.peterroach.net/glossary.html</p></div>
+    <div class="panel-footer"><p class="text-muted">Definition from: <a href="http://www.peterroach.net/glossary.html" target="_blank">Peter Roach - Glossary</a></p></div>
   </div>
   <div class="panel panel-default">
     <div class="panel-body text-center">
       <p>
         Click the word to play its pronunciation.<br>
-        Grayed-out cells do not have a sound associated with the word.<br>
+        Shaded boxes do not have a sound associated with the word.<br>
         If you can't hear sound after trying several words, adjust your audio settings in your device.
       </p>
       </div>
@@ -49,14 +56,14 @@
   <div class="panel panel-danger">
     <div class="panel-body text-center">
       <p>
-        <b>Note:</b> Please be aware, that we do not recommend using the interactive function (playing a sound after a click on the word) on devices with limited data usage.
+        <b>Note:</b> Please be aware, that we do not recommend using the interactive function (playing a sound after a click on a word) on devices with limited data usage.
       </p>
       </div>
   </div>
 </div>
 
 <style>
-.noSound {background-color: #C0C0C0; }
+.noSound {background-color: #C8C8C8; }
 </style>
 
   <div class="container">
@@ -80,7 +87,7 @@
      <tr>
       <th rowspan="12">/i&#720;/</th>
       <td><div onclick="playSound('bee');">bee<audio id="bee"></audio></div></td>
-      <td><div onclick="playSound('bead');">bead<audio id="bead"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="/bi:d/" onclick="playSound('bead');">bead<audio id="bead"></audio></div></td>
       <td><div onclick="playSound('beat');">beat<audio id="beat"></audio></div></td>
       <td></td>
       <td></td>
