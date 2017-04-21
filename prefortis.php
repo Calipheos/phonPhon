@@ -48,7 +48,7 @@ $(function () {
     <div class="panel-body text-center">
       <p>
         Click the word to play its pronunciation.<br>
-        Shaded boxes do not have a sound associated with the word.<br>
+        Shaded boxes do not have a sound associated with the word, yet.<br>
         If you can't hear sound after trying several words, adjust your audio settings in your device.
       </p>
       </div>
@@ -71,16 +71,16 @@ $(function () {
 
      <thead class="thead-default">
      <tr>
-      <th></th>
-      <th></th>
-      <th>/d/</th>
-      <th>/t/</th>
-      <th>/g/</th>
-      <th>/k/</th>
-      <th>/v/</th>
-      <th>/f/</th>
-      <th>/z/</th>
-      <th>/s/</th>
+      <th class="col-lg-1 col-md-1"></th>
+      <th class="col-lg-1 col-md-1"></th>
+      <th class="col-lg-1 col-md-1">/d/</th>
+      <th class="col-lg-1 col-md-1">/t/</th>
+      <th class="col-lg-1 col-md-1">/g/</th>
+      <th class="col-lg-1 col-md-1">/k/</th>
+      <th class="col-lg-1 col-md-1">/v/</th>
+      <th class="col-lg-1 col-md-1">/f/</th>
+      <th class="col-lg-1 col-md-1">/z/</th>
+      <th class="col-lg-1 col-md-1">/s/</th>
      </tr>
    </thead>
 
