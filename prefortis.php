@@ -37,38 +37,40 @@ $(function () {
     <div class="panel-heading"><h4>Definition: Pre-fortis clipping /ˌpriːˌfɔːtɪs ˈklɪpɪŋ/</h4></div>
     <div class="panel-body">
       <p>
-        Fortis consonants have the effect of shortening a preceding vowel or sonorant consonant,
-        so that, for example, ‘bit’ has a shorter vowel than ‘bid’. This effect is sometimes called
-        pre-fortis clipping.
+        When a voiceless consonant comes at the end of a syllable, the vowel which is immediately before it, is shorter. For example: <i><b>beat, cart, fierce</i></b>.<br>
+        When a voiced consonant comes at the end of a syllable, the vowel which is immediately before it, sounds longer. For example: <i><b>bead, card, fears</i></b>.
+      </p>
+      <p>
+        This is because a voiceless consonant, also known as a fortis consonant, "clips" the  sound before it. <br>
+        It is as if a voiceless (or fortis) consonant "tells" the vowel which comes before it to "keep it short!".
+
+        This feature of English is called pre-fortis clipping.
+
       </p>
       </div>
-    <div class="panel-footer"><p class="text-muted">Definition from: <a href="http://www.peterroach.net/glossary.html" target="_blank">Peter Roach - Glossary</a></p></div>
+    <div class="panel-footer"><p class="text-muted">Definition by: Nicola S. Karásková, M.A.</p></div>
   </div>
   <div class="panel panel-default">
     <div class="panel-body text-center">
       <p>
-        Choose the vowel you wish to practice and then click the word to play its pronunciation.<br>
-        <!-- Shaded boxes do not have a sound associated with the word, yet.<br> -->
-        If you can't hear sound after trying several words, adjust your audio settings in your device.
+        Choose the vowel you wish to practise. Then click the word to play its pronunciation.<br>
+        Shaded boxes do not have a sound associated with the word, yet.<br>
+        If you are still unable to hear any sound (after clicking on several words), adjust the audio settings on your device.
       </p>
       </div>
   </div>
   <div class="panel panel-danger">
     <div class="panel-body text-center">
       <p>
-        <b>Note:</b> Please be aware, that we do not recommend using the interactive function (playing a sound after a click on a word) on devices with limited data usage.
+        <b>Note:</b> Do not use the interactive function (clicking to hear a word) on devices with limited data usage.
       </p>
       </div>
   </div>
 
-<!--
+
   <style>
   .noSound {background-color: #C8C8C8; }
   </style>
-
-
-
- -->
 
 
 
@@ -233,7 +235,7 @@ $(function () {
         </tr>
 
         <tr>
-         <th rowspan="4">/&#593;&#720;/</th>
+         <th rowspan="5">/&#593;&#720;/</th>
          <td><div data-toggle="tooltip" data-placement="top" title="/bɑː/" onclick="playSound('bar');">bar<audio id="bar"></audio></div></td>
          <td><div data-toggle="tooltip" data-placement="top" title="/bɑːd/" onclick="playSound('bard');">bard, barred<audio id="bard"></audio></div></td>
          <td><div data-toggle="tooltip" data-placement="top" title="/bɑːt/" onclick="playSound('Bart');">Bart<audio id="Bart"></audio></div></td>
@@ -252,6 +254,17 @@ $(function () {
          <td></td>
          <td><div data-toggle="tooltip" data-placement="top" title="/kɑːv/" onclick="playSound('calve');">calve<audio id="calve"></audio></div></td>
          <td><div data-toggle="tooltip" data-placement="top" title="/kɑːf/" onclick="playSound('calf');">calf<audio id="calf"></audio></div></td>
+         <td></td>
+         <td></td>
+        </tr>
+        <tr>
+         <td class="noSound"><div data-toggle="tooltip" data-placement="top" title="/tʃɑː/" onclick="playSound('char');">char<audio id="char"></audio></div></td>
+         <td class="noSound"><div data-toggle="tooltip" data-placement="top" title="/tʃɑːd/" onclick="playSound('charred');">charred<audio id="charred"></audio></div></td>
+         <td class="noSound"><div data-toggle="tooltip" data-placement="top" title="/rʃɑːt/" onclick="playSound('chart');">chart<audio id="chart"></audio></div></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
          <td></td>
          <td></td>
         </tr>
@@ -281,8 +294,8 @@ $(function () {
         <tr>
          <th rowspan="4">/&#604;&#720;/</th>
          <td><div data-toggle="tooltip" data-placement="top" title="/kɜː/" onclick="playSound('cur');">cur<audio id="cur"></audio></div></td>
-         <td></td>
-         <td></td>
+         <td class="noSound"><div data-toggle="tooltip" data-placement="top" title="/kɜːd/" onclick="playSound('curd');">curd<audio id="curd"></audio></div></td>
+         <td class="noSound"><div data-toggle="tooltip" data-placement="top" title="/kɜːt/" onclick="playSound('curt');">curt<audio id="curt"></audio></div></td>
          <td></td>
          <td></td>
          <td></td>
@@ -383,7 +396,7 @@ $(function () {
 
         <tr>
          <th rowspan="5">/&#596;&#720;/</th>
-         <td><div data-toggle="tooltip" data-placement="top" title="/kɔː/" onclick="playSound('core');">core, caw<audio id="core"></audio></div></td>
+         <td><div data-toggle="tooltip" data-placement="top" title="/kɔː/" onclick="playSound('core');">core, caw, corps<audio id="core"></audio></div></td>
          <td><div data-toggle="tooltip" data-placement="top" title="/kɔːd/" onclick="playSound('cord');">cord, chord, cawed<audio id="cord"></audio></div></td>
          <td><div data-toggle="tooltip" data-placement="top" title="/kɔːt/" onclick="playSound('court');">court, caught<audio id="court"></audio></div></td>
          <td></td>
@@ -418,7 +431,7 @@ $(function () {
         <tr>
          <td><div data-toggle="tooltip" data-placement="top" title="/sɔː/" onclick="playSound('saw');">saw, soar<audio id="saw"></audio></div></td>
          <td><div data-toggle="tooltip" data-placement="top" title="/sɔːd/" onclick="playSound('sawed');">sawed, soared<audio id="sawed"></audio></div></td>
-         <td><div data-toggle="tooltip" data-placement="top" title="/sɔːt/" onclick="playSound('sought');">sought<audio id="sought"></audio></div></td>
+         <td><div data-toggle="tooltip" data-placement="top" title="/sɔːt/" onclick="playSound('sought');">sought, sort<audio id="sought"></audio></div></td>
          <td></td>
          <td></td>
          <td></td>
@@ -458,7 +471,7 @@ $(function () {
          <td></td>
          <td></td>
          <td></td>
-         <td><div data-toggle="tooltip" data-placement="top" title="/breɪz/" onclick="playSound('brays');">brays<audio id="brays"></audio></div></td>
+         <td><div data-toggle="tooltip" data-placement="top" title="/breɪz/" onclick="playSound('brays');">brays, braise<audio id="brays"></audio></div></td>
          <td><div data-toggle="tooltip" data-placement="top" title="/breɪs/" onclick="playSound('brace');">brace<audio id="brace"></audio></div></td>
        </tr>
        <tr>
@@ -535,12 +548,12 @@ $(function () {
          <td></td>
          <td></td>
          <td></td>
-         <td><div data-toggle="tooltip" data-placement="top" title="/reɪz/" onclick="playSound('rays');">rays<audio id="rays"></audio></div></td>
+         <td><div data-toggle="tooltip" data-placement="top" title="/reɪz/" onclick="playSound('rays');">rays, raze, rise<audio id="rays"></audio></div></td>
          <td><div data-toggle="tooltip" data-placement="top" title="/reɪs/" onclick="playSound('race');">race<audio id="race"></audio></div></td>
         </tr>
         <tr>
          <td><div data-toggle="tooltip" data-placement="top" title="/speɪ/" onclick="playSound('spay');">spay<audio id="spay"></audio></div></td>
-         <td><div data-toggle="tooltip" data-placement="top" title="/speɪd/" onclick="playSound('spayd');">spayed<audio id="spayed"></audio></div></td>
+         <td><div data-toggle="tooltip" data-placement="top" title="/speɪd/" onclick="playSound('spayed');">spayed, spade<audio id="spayed"></audio></div></td>
          <td><div data-toggle="tooltip" data-placement="top" title="/speɪt/" onclick="playSound('spate');">spate<audio id="spate"></audio></div></td>
          <td></td>
          <td></td>
@@ -551,7 +564,7 @@ $(function () {
         </tr>
         <tr>
          <td><div data-toggle="tooltip" data-placement="top" title="/steɪ/" onclick="playSound('stay');">stay<audio id="stay"></audio></div></td>
-         <td><div data-toggle="tooltip" data-placement="top" title="/steɪd/" onclick="playSound('stayed');">stayed<audio id="stayed"></audio></div></td>
+         <td><div data-toggle="tooltip" data-placement="top" title="/steɪd/" onclick="playSound('stayed');">stayed, staid<audio id="stayed"></audio></div></td>
          <td><div data-toggle="tooltip" data-placement="top" title="/steɪt/" onclick="playSound('state');">state<audio id="state"></audio></div></td>
          <td></td>
          <td></td>
@@ -1151,6 +1164,17 @@ $(function () {
       <td></td>
      </tr>
      <tr>
+      <td class="noSound"><div data-toggle="tooltip" data-placement="top" title="/tʃɑː/" onclick="playSound('char');">char<audio id="char"></audio></div></td>
+      <td class="noSound"><div data-toggle="tooltip" data-placement="top" title="/tʃɑːd/" onclick="playSound('charred');">charred<audio id="charred"></audio></div></td>
+      <td class="noSound"><div data-toggle="tooltip" data-placement="top" title="/rʃɑːt/" onclick="playSound('chart');">chart<audio id="chart"></audio></div></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+     </tr>
+     <tr>
       <td></td>
       <td></td>
       <td></td>
@@ -1198,16 +1222,16 @@ $(function () {
        </tr>
      </thead>
      <tr>
-      <td><div data-toggle="tooltip" data-placement="top" title="/kɜː/" onclick="playSound('cur');">cur<audio id="cur"></audio></div></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td><div data-toggle="tooltip" data-placement="top" title="/kɜːz/" onclick="playSound('curs');">curs<audio id="curs"></audio></div></td>
-      <td><div data-toggle="tooltip" data-placement="top" title="/kɜːs/" onclick="playSound('curse');">curse<audio id="curse"></audio></div></td>
-     </tr>
+       <td><div data-toggle="tooltip" data-placement="top" title="/kɜː/" onclick="playSound('cur');">cur<audio id="cur"></audio></div></td>
+       <td class="noSound"><div data-toggle="tooltip" data-placement="top" title="/kɜːd/" onclick="playSound('curd');">curd<audio id="curd"></audio></div></td>
+       <td class="noSound"><div data-toggle="tooltip" data-placement="top" title="/kɜːt/" onclick="playSound('curt');">curt<audio id="curt"></audio></div></td>
+       <td></td>
+       <td></td>
+       <td></td>
+       <td></td>
+       <td><div data-toggle="tooltip" data-placement="top" title="/kɜːz/" onclick="playSound('curs');">curs<audio id="curs"></audio></div></td>
+       <td><div data-toggle="tooltip" data-placement="top" title="/kɜːs/" onclick="playSound('curse');">curse<audio id="curse"></audio></div></td>
+      </tr>
      <tr>
       <td><div data-toggle="tooltip" data-placement="top" title="/hɜː/" onclick="playSound('her');">her<audio id="her"></audio></div></td>
       <td><div data-toggle="tooltip" data-placement="top" title="/hɜːd/" onclick="playSound('heard');">heard, herd<audio id="heard"></audio></div></td>
@@ -1347,7 +1371,7 @@ $(function () {
        </tr>
      </thead>
      <tr>
-      <td><div data-toggle="tooltip" data-placement="top" title="/kɔː/" onclick="playSound('core');">core, caw<audio id="core"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="/kɔː/" onclick="playSound('core');">core, caw, corps<audio id="core"></audio></div></td>
       <td><div data-toggle="tooltip" data-placement="top" title="/kɔːd/" onclick="playSound('cord');">cord, chord, cawed<audio id="cord"></audio></div></td>
       <td><div data-toggle="tooltip" data-placement="top" title="/kɔːt/" onclick="playSound('court');">court, caught<audio id="court"></audio></div></td>
       <td></td>
@@ -1382,7 +1406,7 @@ $(function () {
      <tr>
       <td><div data-toggle="tooltip" data-placement="top" title="/sɔː/" onclick="playSound('saw');">saw, soar<audio id="saw"></audio></div></td>
       <td><div data-toggle="tooltip" data-placement="top" title="/sɔːd/" onclick="playSound('sawed');">sawed, soared<audio id="sawed"></audio></div></td>
-      <td><div data-toggle="tooltip" data-placement="top" title="/sɔːt/" onclick="playSound('sought');">sought<audio id="sought"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="/sɔːt/" onclick="playSound('sought');">sought, sort<audio id="sought"></audio></div></td>
       <td></td>
       <td></td>
       <td></td>
@@ -1445,7 +1469,7 @@ $(function () {
       <td></td>
       <td></td>
       <td></td>
-      <td><div data-toggle="tooltip" data-placement="top" title="/breɪz/" onclick="playSound('brays');">brays<audio id="brays"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="/breɪz/" onclick="playSound('brays');">brays, braise<audio id="brays"></audio></div></td>
       <td><div data-toggle="tooltip" data-placement="top" title="/breɪs/" onclick="playSound('brace');">brace<audio id="brace"></audio></div></td>
     </tr>
     <tr>
@@ -1522,12 +1546,12 @@ $(function () {
       <td></td>
       <td></td>
       <td></td>
-      <td><div data-toggle="tooltip" data-placement="top" title="/reɪz/" onclick="playSound('rays');">rays<audio id="rays"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="/reɪz/" onclick="playSound('rays');">rays, raze, rise<audio id="rays"></audio></div></td>
       <td><div data-toggle="tooltip" data-placement="top" title="/reɪs/" onclick="playSound('race');">race<audio id="race"></audio></div></td>
      </tr>
      <tr>
       <td><div data-toggle="tooltip" data-placement="top" title="/speɪ/" onclick="playSound('spay');">spay<audio id="spay"></audio></div></td>
-      <td><div data-toggle="tooltip" data-placement="top" title="/speɪd/" onclick="playSound('spayd');">spayed<audio id="spayed"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="/speɪd/" onclick="playSound('spayed');">spayed, spade<audio id="spayed"></audio></div></td>
       <td><div data-toggle="tooltip" data-placement="top" title="/speɪt/" onclick="playSound('spate');">spate<audio id="spate"></audio></div></td>
       <td></td>
       <td></td>
@@ -1538,7 +1562,7 @@ $(function () {
      </tr>
      <tr>
       <td><div data-toggle="tooltip" data-placement="top" title="/steɪ/" onclick="playSound('stay');">stay<audio id="stay"></audio></div></td>
-      <td><div data-toggle="tooltip" data-placement="top" title="/steɪd/" onclick="playSound('stayed');">stayed<audio id="stayed"></audio></div></td>
+      <td><div data-toggle="tooltip" data-placement="top" title="/steɪd/" onclick="playSound('stayed');">stayed, staid<audio id="stayed"></audio></div></td>
       <td><div data-toggle="tooltip" data-placement="top" title="/steɪt/" onclick="playSound('state');">state<audio id="state"></audio></div></td>
       <td></td>
       <td></td>
