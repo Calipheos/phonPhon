@@ -67,6 +67,7 @@ $website = new Page;
           <li><a href="router.php?activePage=1">About</a></li>
           <li><a href="router.php?activePage=2">Pre-fortis Clipping</a></li>
           <li><a href="router.php?activePage=3">Navigation</a></li>
+          <li><a href="router.php?activePage=4">American-British English</a></li>
           <!-- <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
             <ul class="dropdown-menu">
@@ -119,9 +120,9 @@ $website = new Page;
                 case 3:
                     include 'fullSiteNav.php';
                     break;
-                // case 4:
-                //     include 'prefortis.php';
-                //     break;
+                case 4:
+                    include 'ame_bre.php';
+                    break;
             }
     }else {
       include 'landingPage.php';
