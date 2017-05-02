@@ -1,3 +1,17 @@
+<style>
+  .rudatest {
+    background-color: green;
+  }
+</style>
+
+<script>
+
+
+
+</script>
+
+
+
 <div class="tg-wrap"><table class="table table-hover table-responsive table-bordered" >
   <tr>
     <th class="col-lg-1 col-md-1">British English</th>
@@ -592,3 +606,69 @@
     <td>zipper</td>
   </tr>
 </table></div>
+<script>
+window.onload = function(){
+var xar = document.getElementsByTagName("TD");
+
+// this script handles the link to from the table to the sound files.
+function playSound(id){
+  xar.firstChild.setAttribute("src", 'media/ame_bre/'+id+'.mp3');
+  xar.firstChild.play();
+}
+
+
+
+
+
+
+//var x = document.getElementsByTagName("TD").length;
+//console.log(x);
+var i; // counter for the for loop
+var temparr = [];//temporary array, where the table content is stored
+var node = document.createElement('DIV');// div node to add sound properties
+
+//console.log(node);
+for (i = 0; i < xar.length; i++){
+
+  temparr[i] = xar[i].innerHTML;
+  console.log(temparr[i]);
+  };
+for (i = 0; i < xar.length; i++){
+  xar[i].innerHTML="";
+
+  };
+for (i = 0; i < xar.length; i++){
+  xar[i].appendChild(node);
+
+  };
+for (i = 0; i < xar.length; i++){
+  console.log(xar[i].innerHTML);
+
+  };
+
+  for (i = 0; i < xar.length; i++){
+    try {
+      xar[i].firstChild.innerHTML = temparr[i];
+    }
+    catch (err) {
+      console.log('Empty Cell');
+    }
+  };
+
+  // xar[i].removeChild;
+  // xar[i].appendChild(node);
+  // xar[i].getElementsByTagName("DIV").innerHTML = temparr[i];
+  // console.log( xar[i].getElementsByTagName("DIV").innerHTML = temparr[i]);
+  // temp = temparr[i].toString();
+  // //console.log(temparr[i]);
+  // xar[i].firstChild.addEventListener("click", function(event) {
+  // playSound(temp);
+  // event.preventDefault();
+
+//   //xar[i].firstChild.innerHTML = temparr[i];
+//   console.log(xar[i].innerHTML);
+// }
+// //var a = "hi";
+// //console.log(a);
+}
+</script>
