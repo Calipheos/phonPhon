@@ -1,4 +1,211 @@
-<style>
+<html>
+<table class="table resposive">
+
+  <script>
+listFile = [
+  ["British English","American English"  ],
+  ["A",""  ],
+  ["accelerator","gas pedal"],
+  ["aerial","antenna"  ],
+  ["Alsatian","German shepherd"  ],
+  ["anorak","jacket"  ],
+  ["at the weekend ","on the weekend "  ],
+  ["aubergine","eggplant"  ],
+  ["B",""  ],
+  ["bank holiday","national holiday, federal holiday"  ],
+  ["barrister, solicitor ","lawyer, attorney"  ],
+  ["to bath","to bathe"  ],
+  ["beetroot","beet"  ],
+  ["bill","check"  ],
+  ["bin, dustbin ","garbage can/trash can "  ],
+  ["biro","ball-point pen"  ],
+  ["biscuit","cookie"  ],
+  ["bonnet","hood"  ],
+  ["boot","trunk"  ],
+  ["braces","suspenders"  ],
+  ["(round) brackets","parentheses"  ],
+  ["C",""  ],
+  ["candy floss","cotton candy"  ],
+  ["car park","parking lot"  ],
+  ["caretaker","janitor"  ],
+  ["chemist's shop","drugstore, pharmacy"  ],
+  ["chips","French fries"  ],
+  ["clothes peg","clothespin"  ],
+  ["cooker","stove"  ],
+  ["(bathing) costume","swimsuit"  ],
+  ["cot (Baby)","crib"  ],
+  ["cotton wool ","cotton ball "  ],
+  ["courgette","zucchini"  ],
+  ["crisps","potato chips"  ],
+  ["curriculum vitae (CV) ","r�sum�"  ],
+  ["",""  ],
+  ["D",""  ],
+  ["dinner jacket","tux, tuxedo"  ],
+  ["directory enquiries","directory assistance"  ],
+  ["double cream","heavy cream"  ],
+  ["draught","draft"  ],
+  ["draughts","checkers"  ],
+  ["drawing pin","thumb tack"  ],
+  ["dressing gown","(bath) robe"  ],
+  ["drink driving","drunk driving"  ],
+  ["driving licence","driver's license"  ],
+  ["dummy","pacifier"  ],
+  ["E",""  ],
+  ["expiry date","expiration date"  ],
+  ["F",""  ],
+  ["fancy dress","costumes"  ],
+  ["Father Christmas","Santa Claus"  ],
+  ["fire brigade","fire department"  ],
+  ["first floor","second floor"  ],
+  ["fish-fingers","fish-sticks"  ],
+  ["flannel","wash cloth"  ],
+  ["flat","apartment"  ],
+  ["",""  ],
+  ["football","soccer"  ],
+  ["fortnight","two weeks"  ],
+  ["fringe","bangs"  ],
+  ["full stop ","period"  ],
+  ["G",""  ],
+  ["garden","yard"  ],
+  ["gear lever","gear shift"  ],
+  ["Gents","Men's Room"  ],
+  ["goods train","freight train"  ],
+  ["ground floor","ground floor, first floor"  ],
+  ["first floor","second floor"  ],
+  ["H",""  ],
+  ["headmaster, headteacher","principal"  ],
+  ["to hire","to rent"  ],
+  ["hire purchase","installment plan"  ],
+  ["hockey","field hockey"  ],
+  ["holiday","vacation"  ],
+  ["hoover","vacuum cleaner"  ],
+  ["I",""  ],
+  ["icing sugar","powdered sugar"  ],
+  ["indicator","blinker, turn signal"  ],
+  ["inverted commas, quotation marks","quotation marks"  ],
+  ["J",""  ],
+  ["jacket potato","baked potato"  ],
+  ["Joe Bloggs","John Doe"  ],
+  ["jumble sale","yard sale"  ],
+  ["jumper","sweater"  ],
+  ["K",""  ],
+  ["L",""  ],
+  ["ladybird","ladybug"  ],
+  ["to lay the table","to set the table"  ],
+  ["letter box","mail box"  ],
+  ["lift","elevator"  ],
+  ["lorry","truck"  ],
+  ["lost property","lost and found"  ],
+  ["M",""  ],
+  ["mackintosh","raincoat"  ],
+  ["managing director","CEO (chief executive officer)"  ],
+  ["mashed potato","mashed potatoes"  ],
+  ["match","game"  ],
+  ["maths","math"  ],
+  ["mobile (phone)","cellphone "  ],
+  ["motorbike","motorcycle"  ],
+  ["motorway","freeway, highway, expressway, interstate"  ],
+  ["mum","mom"  ],
+  ["N",""  ],
+  ["nappy","diaper"  ],
+  ["national insurance number","social security number"  ],
+  ["note","bill"  ],
+  ["notice board","bulletin board"  ],
+  ["number plate","license plate"  ],
+  ["P",""  ],
+  ["a pack of cards","a deck of cards"  ],
+  ["a packet of cigarettes","a pack of cigarettes"  ],
+  ["pants","underpants"  ],
+  ["paraffin","kerosene/kerosine"  ],
+  ["pedestrian crossing","crosswalk"  ],
+  ["pepper","bell pepper"  ],
+  ["petrol","gas"  ],
+  ["phone box","phone booth"  ],
+  ["polo neck","turtle neck"  ],
+  ["post","mail"  ],
+  ["post code","zip code"  ],
+  ["postman","mailman"  ],
+  ["pram, pushchair","baby carriage, baby buggy, stoller "  ],
+  ["prawn","shrimp"  ],
+  ["primary school","elementary school"  ],
+  ["","grade school"  ],
+  ["Q",""  ],
+  ["to queue","to line up"  ],
+  ["quid","buck"  ],
+  ["R",""  ],
+  ["to ring","to call"  ],
+  ["rucksack","backpack"  ],
+  ["rubber","eraser"  ],
+  ["S",""  ],
+  ["shop assistant","sales clerk"  ],
+  ["single ticket","one-way ticket"  ],
+  ["spanner","wrench"  ],
+  ["public school","private school"  ],
+  ["sultana","raisin"  ],
+  ["T",""  ],
+  ["toilet, loo","bathroom, rest room"  ],
+  ["torch","flashlight"  ],
+  ["trainers","sneakers"  ],
+  ["trolley","cart"  ],
+  ["U",""  ],
+  ["underground, tube","subway"  ],
+  ["V",""  ],
+  ["vest","undershirt"  ],
+  ["W",""  ],
+  ["waistcoat","vest"  ],
+  ["wardrobe","closet"  ],
+  ["wing","fender"  ],
+  ["Y",""  ],
+  ["Z",""  ],
+  ["zebra crossing","crosswalk"  ],
+  ["zip","zipper"  ]
+]
+
+
+ function playSound (id, idSet){
+   //alert(id);
+    var audio = document.getElementById(id);
+
+    //console.log(id);
+    // console.log(idSet);
+    audio.setAttribute('src', 'media/soundFiles/ame_bre/'+listFile[id][idSet]+'.mp3');
+    //audio.load();
+    audio.play();
+ }
+  </script>
+
+<?php
+
+$row = 1;
+$id = 0;
+
+if (($handle = fopen("media/soundFiles/ame_bre.csv", "r")) !== FALSE) {
+  while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
+      $num = count($data);
+      echo '<tr><td><div onClick="playSound('.$id.',0)">'.$data[0].'<audio id="'.$id.'"></audio></div></td><td><div onClick="playSound('.$id.',1)">'.$data[1].'<audio id="'.$id.'"></audio></div></td></tr>';
+      $row++;
+      $id++;
+
+  }
+  fclose($handle);
+}
+
+?>
+</table>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- /*<style>
   .rudatest {
     background-color: green;
   }
@@ -607,25 +814,23 @@
   </tr>
 </table></div>
 <script>
+
+function playSound(id){
+  var x = getElementsById.setAttribute("src", 'media/ame_bre/'+id+'.mp3');
+  xar.firstChild.play();
+}
+
 window.onload = function(){
 var xar = document.getElementsByTagName("TD");
 
 // this script handles the link to from the table to the sound files.
-function playSound(id){
-  xar.firstChild.setAttribute("src", 'media/ame_bre/'+id+'.mp3');
-  xar.firstChild.play();
-}
-
-
-
-
 
 
 //var x = document.getElementsByTagName("TD").length;
 //console.log(x);
 var i; // counter for the for loop
 var temparr = [];//temporary array, where the table content is stored
-var node = document.createElement('DIV');// div node to add sound properties
+//var node = document.createElement('DIV');// div node to add sound properties
 
 //console.log(node);
 for (i = 0; i < xar.length; i++){
@@ -638,8 +843,8 @@ for (i = 0; i < xar.length; i++){
 
   };
 for (i = 0; i < xar.length; i++){
-  xar[i].appendChild(node);
-
+  xar[i].appendChild(document.createElement('DIV'));
+  xar[i].firstChild.setAttribute('onClick','playSound("'+temparr[i]+'")');
   };
 for (i = 0; i < xar.length; i++){
   console.log(xar[i].innerHTML);
@@ -654,6 +859,7 @@ for (i = 0; i < xar.length; i++){
       console.log('Empty Cell');
     }
   };
+
 
   // xar[i].removeChild;
   // xar[i].appendChild(node);
@@ -671,4 +877,6 @@ for (i = 0; i < xar.length; i++){
 // //var a = "hi";
 // //console.log(a);
 }
-</script>
+
+
+</script>*/ -->
