@@ -1,8 +1,10 @@
+<!-- Html Markup and css class settings -->
+
 <html>
 <table class="table resposive">
 
 <script>
-
+// playSound function handles sound file association to the DOM element and plays the sound file.
  function playSound (id){
     //alert(id);
     var audio = document.getElementById(id);
@@ -14,7 +16,8 @@
 </script>
 
 <?php
-
+// reading procedure of the ame_bre.csv file and loading the data into the browser memory.
+// the page content is renderd in this while loop as well.
 $row = 1;
 
 
