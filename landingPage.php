@@ -33,7 +33,21 @@ header {
       <!-- /.row -->
 
       <!-- Page Features -->
+
       <div class="row text-center">
+
+        <div class="col-md-3 col-sm-6 hero-feature">
+            <div class="thumbnail">
+                <img src="media\images\American-English-and-British.jpg" alt="">
+                <div class="caption">
+                    <h3>British vs American English</h3>
+                    <p>Check out our interactive table dealing with some of the differences between British and American English.</p>
+                    <p>
+                        <a href="router.php?activePage=4" class="btn btn-primary">See Now</a>
+                    </p>
+                </div>
+            </div>
+        </div>
 
           <div class="col-md-3 col-sm-6 hero-feature">
               <div class="thumbnail">
