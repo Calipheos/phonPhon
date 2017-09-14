@@ -68,18 +68,8 @@ $website = new Page;
           <li><a href="router.php?activePage=2">Pre-fortis Clipping</a></li>
           <li><a href="router.php?activePage=3">Navigation</a></li>
           <li><a href="router.php?activePage=4">American-British English</a></li>
-          <!-- <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#" class="disabled">Action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="#">Separated Link</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="#">One more separated link</a></li>
-            </ul>
-          </li> -->
+
+          
         </ul>
 
         <!-- <ul class="nav navbar-nav navbar-right">
