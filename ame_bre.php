@@ -1,6 +1,16 @@
 <!-- Html Markup and css class settings -->
 
 <html>
+<div class="panel panel-default">
+  <div class="panel-body">
+    This table summarizes the most common uterances from American and British flavour of English.
+    <br>
+    Click the word to hear the sound.
+    <br>
+    Authors: Nicola S. Karásková (BRE), Kathleen Mainsfeeld (AME)
+  </div>
+</div>
+
 <table class="table resposive">
 
 <script>
