@@ -1,7 +1,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 <?php
 //include 'router.php';
-include 'classes/Page.php';
+include 'classes/loadComponents.php';
 if (isset($_GET['activePage'])){
 $_SESSION['activePage'] = $_GET['activePage'];
 }
@@ -69,7 +69,7 @@ $website = new Page;
           <li><a href="router.php?activePage=3">Navigation</a></li>
           <li><a href="router.php?activePage=4">American-British English</a></li>
 
-          
+
         </ul>
 
         <!-- <ul class="nav navbar-nav navbar-right">

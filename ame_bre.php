@@ -7,7 +7,7 @@
     <br>
     Click the word to hear the sound.
     <br>
-    Authors: Nicola S. Karásková (BRE), Kathleen Mainsfeeld (AME)
+    Authors: Nicola S. Karásková (BRE), Kathleen Winslow (AME).
   </div>
 </div>
 

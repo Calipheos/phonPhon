@@ -4,8 +4,7 @@
 //include ('databaseConnection.php');
 //include ('Lilly.php');
 //echo $servername;
-class Article
-{
+class Article {
   //properties
 
   public $id;
@@ -81,8 +80,8 @@ if ($conn->query($sql) === TRUE){
                 }
 
 
-}
 
+}
 
 
 

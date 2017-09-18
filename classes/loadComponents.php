@@ -3,5 +3,5 @@
 include'Article.php';
 include'Page.php';
 include'User.php';
-include'Lilly.php';
+include'DatabaseHandler.php';
 ?>

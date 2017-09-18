@@ -8,10 +8,12 @@ class User {
     public $userName;
 
 // Function Verifies Login from login.php and sets the $_SESSION['username']  acordingly
-    public function login($conn, $userName, $password){
-      echo $userName;
-      $sql = "SELECT * FROM users";
-      $result = $conn->query($sql);
+    public function login($userName, $password){
+      $bot = new DatabaseHandler;
+      $sql = "SELECT * FROM test.users WHERE userName = '$userName'";
+
+      $result = $bot->readObject($sql);
+
       if ($result->num_rows > 0){
         while ($row = $result->fetch_assoc()) {
           //if ($userName == $row["userName"]){echo "User Name mactch";}
