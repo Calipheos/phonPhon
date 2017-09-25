@@ -11,7 +11,7 @@ class DatabaseHandler {
 		include 'config.php';
 		// Create connection
 		$this->conn = new mysqli($servername, $username, $password, $dbname);
-		echo var_dump( $this->conn );
+
 		// Check connection
 		if ($this->conn->connect_error) {
 			die("Connection failed: " . $this->$conn->connect_error);
@@ -25,7 +25,7 @@ class DatabaseHandler {
 			$response = ['OK'];
 			return $responseArray = $arrayName = array('responseMessage' => $respose,'responseContent' => $result);
 		} else {
-			throw new Exception('SQL Querry Error'.$sql.$this->conn->error);
+			// throw new Exception('SQL Querry Error'.$sql.$this->conn->error);
 			$response = ['Connection Error',$this->conn->error];
 			return $response;
 		}
@@ -57,7 +57,7 @@ class DatabaseHandler {
 	}
 	public function readObject($sql){
 		$this->establishConnection();
-
+		echo $sql;
 		$this->executeQuerry($sql);
 	}
 

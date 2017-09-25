@@ -10,7 +10,7 @@ class User {
 // Function Verifies Login from login.php and sets the $_SESSION['username']  acordingly
     public function login($userName, $password){
       $bot = new DatabaseHandler;
-      $sql = "SELECT * FROM test.users WHERE userName = '$userName'";
+      $sql = "SELECT * FROM users WHERE userName = '$userName'";
 
       $result = $bot->readObject($sql);
 
