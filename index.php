@@ -68,6 +68,13 @@ $website = new Page;
           <li><a href="router.php?activePage=2">Pre-fortis Clipping</a></li>
           <li><a href="router.php?activePage=3">Navigation</a></li>
           <li><a href="router.php?activePage=4">American-British English</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Vowel Tables<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="router.php?activePage=5">Short Vowels</a></li>
+              <li><a href="router.php?activePage=6">Long Vowels</a></li>
+            </ul>
+          </li>
 
 
         </ul>
@@ -112,6 +119,12 @@ $website = new Page;
                     break;
                 case 4:
                     include 'ame_bre.php';
+                    break;
+                case 5:
+                    include 'shortVowels2.php';
+                    break;
+                case 6:
+                    include 'longVowels.php';
                     break;
             }
     }else {

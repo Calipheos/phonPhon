@@ -22,12 +22,6 @@
 </head>
 
 <body>
-  <style>
-    div.dataTables_wrapper {
-      width: 80%;
-      margin: 0 auto;
-    }
-  </style>
   <table id="shortVowel" class="display nowrap" cellspacing="0" width="100%">
     <thead>
       <tr>
@@ -2876,4 +2870,6 @@
       </tr>
     </tbody>
     <table>
+    </div>
 </body>
+</html>
