@@ -121,7 +121,7 @@ $website = new Page;
                     include 'ame_bre.php';
                     break;
                 case 5:
-                    include 'shortVowels2.php';
+                    include 'shortVowels.php';
                     break;
                 case 6:
                     include 'longVowels.php';
