@@ -70,9 +70,18 @@ $website = new Page;
           <li><a href="router.php?activePage=4">American-British English</a></li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Vowel Tables<span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="router.php?activePage=5">Short Vowels</a></li>
-              <li><a href="router.php?activePage=6">Long Vowels</a></li>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+              <li class="dropdown-submenu">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Short Vowels<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="router.php?activePage=5">DRESS</a></li>
+                  <li><a href="router.php?activePage=6">FOOT</a></li>
+                  <li><a href="router.php?activePage=5">KIT</a></li>
+                  <li><a href="router.php?activePage=6">LOT</a></li>
+                  <li><a href="router.php?activePage=5">STRUT</a></li>
+                  <li><a href="router.php?activePage=6">TRAP</a></li>
+                </ul>
+              </li>
             </ul>
           </li>
 
@@ -121,7 +130,7 @@ $website = new Page;
                     include 'ame_bre.php';
                     break;
                 case 5:
-                    include 'shortVowels.php';
+                    include 'shortVowelDress.php';
                     break;
                 case 6:
                     include 'longVowels.php';

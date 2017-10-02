@@ -22,7 +22,7 @@
   }
 
   .table-wrapper {
-    overflow-x: scroll;
+    overflow: scroll;
     width: 100%;
     margin: 0 auto;
   }
@@ -33,6 +33,7 @@
 
 </style>
 
+
 <div class="container">
   <div class="table-wrapper">
     <table class="table table-hover table-responsive table-bordered">
@@ -41,7 +42,8 @@
 // the page content is renderd in this while loop as well.
 $row = 1;
 
-if (($handle = fopen("media/soundFiles/shortVowels3.csv", "r")) !== FALSE) {
+if (($handle = fopen("media/soundFiles/shortVowelDress.csv", "r")) !== FALSE) {
+
   while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
       $num = count($data);
 
@@ -92,6 +94,8 @@ if (($handle = fopen("media/soundFiles/shortVowels3.csv", "r")) !== FALSE) {
       $fc44 = '"'.$data[44].'.mp3"';
       $fc45 = '"'.$data[45].'.mp3"';
       $fc46 = '"'.$data[46].'.mp3"';
+      $fc47 = '"'.$data[47].'.mp3"';
+      $fc48 = '"'.$data[48].'.mp3"';
 
 
     echo '<tr>
@@ -142,6 +146,8 @@ if (($handle = fopen("media/soundFiles/shortVowels3.csv", "r")) !== FALSE) {
       <td><div onClick=\'playSound('.$fc44.')\'>'.$data[44].'<audio id='.$fc44.'></audio></div></td>
       <td><div onClick=\'playSound('.$fc45.')\'>'.$data[45].'<audio id='.$fc45.'></audio></div></td>
       <td><div onClick=\'playSound('.$fc46.')\'>'.$data[46].'<audio id='.$fc46.'></audio></div></td>
+      <td><div onClick=\'playSound('.$fc47.')\'>'.$data[47].'<audio id='.$fc47.'></audio></div></td>
+      <td><div onClick=\'playSound('.$fc48.')\'>'.$data[48].'<audio id='.$fc48.'></audio></div></td>
       </tr>';
 
 
