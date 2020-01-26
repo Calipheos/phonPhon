@@ -1,12 +1,24 @@
+
+<?php require 'vendor/autoload.php';?>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 <?php
+
 //include 'router.php';
-include 'classes/loadComponents.php';
+//include 'classes/loadComponents.php';
 if (isset($_GET['activePage'])){
 $_SESSION['activePage'] = $_GET['activePage'];
 }
-$website = new Page;
+$website = new phonPhon\Page();
+$test = new phonPhon\Test();
+echo $test->returnTestString();
+
+
+
+
 ?>
+
+
+
 
 <!DOCTYPE html>
 <html>
@@ -88,19 +100,10 @@ $website = new Page;
 
         </ul>
 
-        <!-- <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Link</a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="#">Separated link</a></li>
-            </ul>
-          </li>
-        </ul> -->
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="router.php?activePage=7">Administration</a></li>
+          
+        </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
   </nav>
@@ -134,6 +137,9 @@ $website = new Page;
                     break;
                 case 6:
                     include 'longVowels.php';
+                    break;
+                case 7:
+                    include 'administratrion.php';
                     break;
             }
     }else {

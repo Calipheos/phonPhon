@@ -1,4 +1,5 @@
 <?php
+namespace phonPhon;
 // UI elements visibility is hadnled through this class as well
 session_start();
 class Page {

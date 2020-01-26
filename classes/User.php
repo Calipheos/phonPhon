@@ -1,5 +1,6 @@
 <?php
 // This class handles the users and login functionality
+namespace phonPhon;
 class User {
     public $rights;
     public $firstName;

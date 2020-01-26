@@ -28,6 +28,7 @@ header {
       <div class="row">
           <div class="col-lg-12">
               <h2 class="text-center">Our Latest Content Updates</h2>
+              <p> Development Version 1.0. </p>
           </div>
       </div>
       <!-- /.row -->

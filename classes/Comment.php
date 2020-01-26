@@ -1,5 +1,6 @@
 <?php
 // This class defines what is a comment and defines what you can do with it
+namespace phonPhon;
 class Comment{
 	private $refArticleID;
 	public $commentID;

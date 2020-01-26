@@ -1,4 +1,5 @@
 <?php
+namespace phonPhon;
 // This class is responsible for all actions regarding the articles in the app.
 // create, edit, update, delete
 //include ('databaseConnection.php');
