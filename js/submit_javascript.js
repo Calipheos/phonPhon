@@ -1,38 +1,44 @@
 // Submit form with id function.
-function submit_by_id() {
+
+function submit_by_id(){
     var label = document.getElementById("label").value;
     var desc = document.getElementById("desc").value;
-    if (validation()) // Calling validation function
-    {
-    document.getElementById("form_id").submit(); //form submission
-    alert(" label : " + label + " n desc : " + desc + " n Form Id : " + document.getElementById("form_id").getAttribute("id") + "nn Form Submitted Successfully......");
-    }
-    $.ajax({
-        url: "js/save.php",
-        type: "POST",
-        data: {
-            label: label,
-            desc: desc,
-            			
-        },
-        cache: false,
-        success: function(dataResult){
-            var dataResult = JSON.parse(dataResult);
-            if(dataResult.statusCode==200){
-                $("#butsave").removeAttr("disabled");
-                $('#fupForm').find('input:text').val('');
-                $("#success").show();
-                $('#success').html('Data added successfully !'); 						
-            }
-            else if(dataResult.statusCode==201){
-               alert("Error occured !");
-            }
-            
-        }
-    });
+    const xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function(){};
+    xhr.open('POST','js/save.php');
+    //xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+    xhr.send(name,desc);
 
 
 }
+
+// function submit_by_id() {
+//     event.preventDefault();
+//     var label = document.getElementById("label").value;
+//     var desc = document.getElementById("desc").value;
+//     if (validation()) // Calling validation function
+//     {
+//     document.getElementById("form_id").submit(); //form submission
+//     alert(" label : " + label + " n desc : " + desc + " n Form Id : " + document.getElementById("form_id").getAttribute("id") + "nn Form Submitted Successfully......");
+//     }
+    
+//     $.ajax({
+//         url: "js/save.php",
+//         type: "POST",
+//         data: {
+//             label: label,
+//             desc: desc,
+            			
+//         },
+//         cache: false,
+//         success: function () {
+//             alert('form was submitted');
+          
+//         }
+//     });
+//     return false;
+
+// }
 function validation() {
     var label = document.getElementById("label").value;
     var desc = document.getElementById("desc").value;

@@ -1,5 +1,5 @@
 <script src="js/submit_javascript.js"></script>
-<form class="form-horizontal" id="form_id">
+<div class="form-horizontal" id="form_id">
 <fieldset>
 
 <!-- Form Name -->
@@ -24,4 +24,4 @@
 
 <button onClick="submit_by_id()">Create!</button>
 </fieldset>
-</form>
+</div>

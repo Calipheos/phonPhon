@@ -1,17 +1,14 @@
 <?php
-//this is an experimental approach to unify the site management processes
-//DatabaseHandler can do stuff and all she needs is just a call.
-//She is not an object. She is a woman. She might behave the same but it is a
-//great insult to think of her as an object.
-//to instatiate her just create an bot-> new DatabaseHandler; and use one of her trics
+
 namespace phonPhon;
+
 class DatabaseHandler {
-	private $conn;
-	private function establishConnection(){
+	public $conn;
+	public function establishConnection(){
 		// configuration of the database
 		include 'config.php';
 		// Create connection
-		$this->conn = new mysqli($servername, $username, $password, $dbname);
+		$this->conn = new \mysqli($servername, $username, $password,$dbname);
 
 		// Check connection
 		if ($this->conn->connect_error) {
@@ -19,30 +16,73 @@ class DatabaseHandler {
 			throw new Exception('SQL Connection Error'.$sql.$this->$conn->error);
 		}
 	}
-	private function executeQuerry($sql){
-		if ($this->conn->query($sql) === TRUE){
-			$result = $this->conn->query($sql);
+	public function executeQuerry($sql){
+	    $this->establishConnection();
+	    $result = $this->conn->query($sql);
+	    //echo "Do I run twice?";
+	    if ($result == TRUE){
+			//$result = $this->conn->query($sql);
 			echo "Success!";
-			$response = ['OK'];
-			return $responseArray = $arrayName = array('responseMessage' => $respose,'responseContent' => $result);
+			$response = 'OK';
+			$this->conn->close();
+			//$conn.close();
+		    $responseArray = array("responseMessage" => $response,"responseContent" => $result);
+			return $responseArray;
 		} else {
 			// throw new Exception('SQL Querry Error'.$sql.$this->conn->error);
 			$response = ['Connection Error',$this->conn->error];
-			return $response;
+			$result = "SQL ERROR!";
+			$this->conn->close();
+			//$conn.close();
+			return $responseArray  = array("responseMessage" => $response,"responseContent" => $result);
 		}
 	}
+	public function executeQuerryPreparedStatment($target,$setOfValues){
+	    $this->establishConnection();
+	    $result = $this->conn->query($sql);
+	    
+	    
+	    
+	    
+	    /* Prepare an insert statement */
+	    /*$query = "INSERT INTO ? VALUES (" ."")";
+	    $stmt = $mysqli->prepare($query);
+	    */
+	    $stmt->bind_param($setOfValues[1], $setOfValues[2], $val2, $val3);
+	    //echo "Do I run twice?";
+	    if ($result == TRUE){
+	        //$result = $this->conn->query($sql);
+	        echo "Success!";
+	        $response = 'OK';
+	        $this->conn->close();
+	        //$conn.close();
+	        $responseArray = array("responseMessage" => $response,"responseContent" => $result);
+	        return $responseArray;
+	    } else {
+	        // throw new Exception('SQL Querry Error'.$sql.$this->conn->error);
+	        $response = ['Connection Error',$this->conn->error];
+	        $result = "SQL ERROR!";
+	        $this->conn->close();
+	        //$conn.close();
+	        return $responseArray  = array("responseMessage" => $response,"responseContent" => $result);
+	    }
+	}
+	
+	
 	public function createObject($type,$objectName,$arguments) {
-		$this->establishConnection();
+		
 		// values need to be separated by "','" and concatanated by .
 		$sql= "CREATE $type $objectName ($arguments);";
-		echo $sql;
+		echo $sql.'</br>';
 		$this->executeQuerry($sql);
 	}
-	public function saveObject ($type,$arguments,$values) {
-		$this->establishConnection();
+	public function saveObject ($type,$values) {
+	    //echo "Am I twice?";
+		//$this->establishConnection();		
 		// values need to be separated by "','" and concatanated by .
-		$sql= "INSERT INTO $type ($arguments) VALUES ('$values');";
-		$this->executeQuerry($sql);
+		$sql= "INSERT INTO $type VALUES ('$values');";
+		//echo $sql;
+		return $response = $this->executeQuerry($sql);
 	}
 	public function deleteObject($id,$type){
 		$this->establishConnection();
@@ -57,10 +97,28 @@ class DatabaseHandler {
 		}
 	}
 	public function readObject($sql){
-		$this->establishConnection();
-		echo $sql;
-		$this->executeQuerry($sql);
+		//$this->establishConnection();
+		//echo $sql;
+		$resultAll = $this->executeQuerry($sql);
+		$result = $resultAll['responseContent'];
+		$result_array = array();
+		if ($result->num_rows > 0) {
+		    while($row = $result->fetch_assoc()) {
+		        //echo $row['cus_username'].$row['cus_pass'];
+		        array_push($result_array, $row);
+		    }
+		}
+		array_push($result_array,$resultAll['responseMessage']);
+		//print_r($resultAll);
+		return $result_array;
+	}
+	public function sanitizeInputs($values) {
+	    return null;
+	}
+	private function prepareValues($values) {
+	    foreach ($values as $key => $value) {
+	        $this->prepare("INSERT INTO $type VALUES ('$values');");
+	    }
 	}
 
 }
-?>
