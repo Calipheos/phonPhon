@@ -22,6 +22,6 @@
   </div>
 </div>
 
-<button onClick="submit_by_id()">Create!</button>
+<button onClick="saveArticle()">Create!</button>
 </fieldset>
 </div>

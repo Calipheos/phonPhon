@@ -12,7 +12,7 @@ class DatabaseHandler {
 
 		// Check connection
 		if ($this->conn->connect_error) {
-			die("Connection failed: " . $this->$conn->connect_error);
+			die("Connection failed: " . $this->conn->connect_error);
 			throw new Exception('SQL Connection Error'.$sql.$this->$conn->error);
 		}
 	}
@@ -37,13 +37,13 @@ class DatabaseHandler {
 			return $responseArray  = array("responseMessage" => $response,"responseContent" => $result);
 		}
 	}
-	private function executeQuerryPreparedStatment($target,$setOfValues){
+	private function preparePreparedStatment($target,$setOfValues){
 	    $this->establishConnection();
-	    $result = $this->conn->query($sql);
-	    
-	    
-	    
-	    
+	   -- $result = $this->conn->query($sql);
+
+
+
+
 	    /* Prepare an insert statement */
 	    /*$query = "INSERT INTO ? VALUES (" ."")";
 	    $stmt = $mysqli->prepare($query);
@@ -76,11 +76,13 @@ class DatabaseHandler {
 		echo $sql.'</br>';
 		$this->executeQuerry($sql);
 	}
-	private function saveObject ($type,$values) {
-	    //echo "Am I twice?";
-		//$this->establishConnection();		
-		// values need to be separated by "','" and concatanated by .
-		$sql= "INSERT INTO $type VALUES ($values);";
+	private function saveObject ($querry,$values, $types) {
+
+		$this->establishConnection();
+        $stmt = $this->conn->prepare($querry);
+        $stmt->bind_param($types, $firstname, $lastname, $email);
+
+        $sql= "INSERT INTO $type VALUES ($values);";
 		//echo $sql;
 		return $response = $this->executeQuerry($sql);
 	}
