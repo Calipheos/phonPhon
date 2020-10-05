@@ -15,17 +15,21 @@ class Article {
   public $title;
   public $querry;
 
+  public $insertQuerry = "INSERT INTO articles (author, article, dateCreated, title) VALUES (?,?,?,?)";
+  public $valueTypes = 'ssss';
+
 public function insertArticle ($title, $text) {
 	$date = date('d.m.Y');
 	$author = "Admin";
 	$type = "articles";
 	$arguments ="author, article, dateCreated, title";
-	$values = $author."','".$text."','".$date."','".$title;
+	$values = array($this->author, $this->article, $this->dateCreated, $this->title);
 
-
-	$bot = new Lilly;
-	$bot->saveObject($type,$arguments,$values);
+	$bot = new DatabaseHandler();
+	$bot->saveObject($values,$this->valueTypes);
 	echo 'Article Saved';
+
+
 }
   //$sql = "INSERT INTO articles (author, article, dateCreated, title) VALUES ('$author', '$text', '$date', '$title');";
 

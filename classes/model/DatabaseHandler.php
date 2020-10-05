@@ -3,8 +3,8 @@
 namespace phonPhon;
 
 class DatabaseHandler {
-	public $conn;
-	public function establishConnection(){
+	private $conn;
+	private function establishConnection(){
 		// configuration of the database
 		include 'config.php';
 		// Create connection
@@ -16,7 +16,7 @@ class DatabaseHandler {
 			throw new Exception('SQL Connection Error'.$sql.$this->$conn->error);
 		}
 	}
-	public function executeQuerry($sql){
+	private function executeQuerry($sql){
 	    $this->establishConnection();
 	    $result = $this->conn->query($sql);
 	    //echo "Do I run twice?";
@@ -37,7 +37,7 @@ class DatabaseHandler {
 			return $responseArray  = array("responseMessage" => $response,"responseContent" => $result);
 		}
 	}
-	public function executeQuerryPreparedStatment($target,$setOfValues){
+	private function executeQuerryPreparedStatment($target,$setOfValues){
 	    $this->establishConnection();
 	    $result = $this->conn->query($sql);
 	    
@@ -69,34 +69,34 @@ class DatabaseHandler {
 	}
 	
 	
-	public function createObject($type,$objectName,$arguments) {
+	private function createObject($type,$objectName,$arguments) {
 		
 		// values need to be separated by "','" and concatanated by .
 		$sql= "CREATE $type $objectName ($arguments);";
 		echo $sql.'</br>';
 		$this->executeQuerry($sql);
 	}
-	public function saveObject ($type,$values) {
+	private function saveObject ($type,$values) {
 	    //echo "Am I twice?";
 		//$this->establishConnection();		
 		// values need to be separated by "','" and concatanated by .
-		$sql= "INSERT INTO $type VALUES ('$values');";
+		$sql= "INSERT INTO $type VALUES ($values);";
 		//echo $sql;
 		return $response = $this->executeQuerry($sql);
 	}
-	public function deleteObject($id,$type){
+	private function deleteObject($id,$type){
 		$this->establishConnection();
 		$sql = "DELETE FROM $type WHERE id ='$id' ";
 		$this->executeQuerry($sql);
 	}
-	public function editObject($id,$type,$arguments,$values){
+	private function editObject($id,$type,$arguments,$values){
 		$this->establishConnection();
 		for ($i=0;$i<count($arguments);$i++) {
 			$sql = "UPDATE $type SET $arguments[$i] = '$values[$i]' WHERE id='$id'";
 			$this->executeQuerry($sql);
 		}
 	}
-	public function readObject($sql){
+	private function readObject($sql){
 		//$this->establishConnection();
 		//echo $sql;
 		$resultAll = $this->executeQuerry($sql);
@@ -112,7 +112,7 @@ class DatabaseHandler {
 		//print_r($resultAll);
 		return $result_array;
 	}
-	public function sanitizeInputs($values) {
+	private function sanitizeInputs($values) {
 	    return null;
 	}
 	private function prepareValues($values) {
